@@ -104,3 +104,18 @@ GSYMS
 /tools/mpg123-1.21.0
 /tools/sequitur
 /tools/srilm.tgz
+/tools/speex-1.2rc1.tar.gz
+/tools/speex
+/tools/speex-1.2rc1/
+/tools/expat-2.1.0.tar.gz
+/tools/expat-2.1.0/
+/tools/pcre-8.20.tar.bz2
+/tools/pcre-8.20/
+/tools/pugixml-1.2.tar.gz
+/tools/pugixml-1.2/
+/tools/SPTK-3.9.tar.gz
+/tools/SPTK/
+/tools/SPTK-3.9/
+
+# /egs/
+/egs/tts_dnn_arctic_1/
