@@ -57,7 +57,7 @@ for spk in $spks; do
         for i in rawaudio/cmu_us_${spk}_arctic/orig/*.wav; do
             # sox $i -r 48k $audio_dir/`basename $i` remix 1 upsample 2
             # sox $i $audio_dir/`basename $i` remix 1 rate -v -s -a 48000 dither -s
-            sox $i $audio_dir/`basename $i` remix 1 rate -v -s -a 48000 dither -s
+            sox -G $i $audio_dir/`basename $i` remix 1 rate -v -s -a 48000 dither -s
         done
     fi
     if [ ! -e $label_dir ]; then
